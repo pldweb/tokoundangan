@@ -61,7 +61,7 @@ nav .navbar-nav a:hover {
 /* hero-section */
 section#hero-section {
 
-  padding: 8rem 0;
+  padding: 4rem 0 8rem;
 }
 
 
@@ -100,6 +100,12 @@ section#hero-section .button-banner .btn-primary {
 
   box-shadow: rgba(255, 86, 86, 0.356) 0px 7px 29px 0px;
 }
+
+/* End hero-section */
+
+
+
+/*  */
 
 /* breakpoints */
 
