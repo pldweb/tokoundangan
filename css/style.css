@@ -1,0 +1,120 @@
+html,body,h1,h2,h3,h4,h6,p,a {
+
+   font-family: 'Poppins', sans-serif;
+}
+
+
+.btn-primary {
+  background-color: #F65251;
+  border-color: #F65251;
+  padding: 8px 20px;
+}
+
+.btn-primary:hover, .btn.btn-primary:active, .btn-btn-primary:focus {
+
+  background-color: #e64a4a !important;
+  border-color: #e64a4a !important;
+  box-shadow: none;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+
+  color: #fff;
+  background-color: #e64a4a;
+  border-color: #e64a4a;
+  box-shadow: none;
+}
+
+/* Navbar-section */
+
+nav.custom-navbar {
+
+  padding: 20px 0;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+nav .logo img{
+    min-width: 250px;
+    max-width: 251px;
+}
+
+
+nav .navbar-nav li {
+  margin: 0 5px;
+}
+nav .navbar-nav li a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333333 !important;
+}
+
+nav .navbar-nav a:hover {
+  color: #F65251 !important;
+  transition: .4s all ease-in-out;
+}
+/* ennd navbar-section */
+
+
+/* hero-section */
+section#hero-section {
+
+  padding: 8rem 0;
+}
+
+
+section#hero-section .title-banner {
+  margin: 20px 0;
+}
+
+section#hero-section .title-banner h2 {
+
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+section#hero-section .title-banner h1 {
+
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #F65251;
+
+}
+
+section#hero-section .desc-banner {
+
+    margin: 20px 0 30px;
+}
+
+section#hero-section  .desc-banner p {
+
+    font-weight: 400;
+    color: #6a6a6a;
+    line-height: 28px;
+}
+
+
+section#hero-section .button-banner .btn-primary {
+
+  box-shadow: rgba(255, 86, 86, 0.356) 0px 7px 29px 0px;
+}
+
+/* breakpoints */
+
+@media (max-width: 375px) {
+  
+}
+@media (max-width: 552px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 1024px) {
+  
+}
