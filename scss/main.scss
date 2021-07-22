@@ -1,0 +1,93 @@
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap');
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "dark": $dark,
+  "danger": $danger,
+);
+
+// bootstrap required
+@import "./bootstrap/functions";
+@import "./bootstrap/variables";
+@import "./bootstrap/mixins";
+// bootstrap optional
+@import "./bootstrap/root";
+@import "./bootstrap/reboot";
+@import "./bootstrap/utilities";
+@import "./bootstrap/mixins";
+@import "./bootstrap/nav";
+@import "./bootstrap/navbar";
+@import "./bootstrap/transitions";
+@import "./bootstrap/type";
+@import "./bootstrap/card";
+@import "./bootstrap/images";
+@import "./bootstrap/jumbotron";
+@import "./bootstrap/buttons";
+@import "./bootstrap/grid";
+
+// @import "./bootstrap/bootstrap.scss";
+
+// Custom styling
+@import "./mixins";
+
+
+body {
+  font-family: "Poppins" , sans-serif;
+}
+
+.font-logo {
+    font-family: "Baloo" , sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(248,125,124);
+
+}
+
+.font-nav {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.custom-navbar {
+
+  .navbar-nav {
+
+    .nav-item {
+      margin-right: 1.2em;
+
+    }
+  }
+}
+
+.left-line {
+  width: 60px;
+  height: 2px;
+  background: #F65251;
+  margin: 20px 0 0;
+  display: block;
+}
+
+.mid-line {
+  width: 60px;
+  height: 2px;
+  background: #F65251;
+  margin: 20px auto;
+  display: block;
+}
+
+.tentang-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.tentang {
+  margin-top: 70px;
+}
+
+
+.portfolio {
+  margin-top: 100px;
+}
