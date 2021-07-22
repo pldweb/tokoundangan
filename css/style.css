@@ -107,20 +107,24 @@ section#hero-section .button-banner .btn-primary {
 
 section#design {
 
-  margin: 2rem 0;
+  margin: 2rem 0 8rem;
 }
 
-section#design .title-text {
+.title-text {
 
   margin-bottom: 3rem;
 }
 
-section#design .title-text h3 {
+ .title-text h3 {
 
   font-weight: 700;
 }
 
-section#design .title-text .garis {
+.title-text p {
+  color: #6a6a6a;
+}
+
+.title-text .garis {
   width: 90px;
   position: relative;
   height: 5px;
@@ -178,7 +182,42 @@ section#design .produk-item .description h2{
 
 /* end design-section */
 
-/*  */
+/* about-section */
+
+section#about .title-text p {
+  padding: 0 18%;
+  color: #6a6a6a;
+}
+
+section#about .gambar {
+  margin: 20px 0;
+}
+
+section#about .gambar img {
+  min-width: 200px;
+  max-width: 201px;
+}
+
+/* end about */
+
+
+/* fitur section */
+
+section#fitur {
+  margin: 5rem 0;
+}
+
+section#fitur .title-text h2 {
+
+  font-weight: 700;
+
+}
+
+section#fitur .title-text p {
+  padding: 0 18%;
+} 
+
+
 
 /* breakpoints */
 
