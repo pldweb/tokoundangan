@@ -103,7 +103,80 @@ section#hero-section .button-banner .btn-primary {
 
 /* End hero-section */
 
+/* Design-section */
 
+section#design {
+
+  margin: 2rem 0;
+}
+
+section#design .title-text {
+
+  margin-bottom: 3rem;
+}
+
+section#design .title-text h3 {
+
+  font-weight: 700;
+}
+
+section#design .title-text .garis {
+  width: 90px;
+  position: relative;
+  height: 5px;
+  background: #F65251;
+  left: 0;
+  right: 0;
+  margin: 25px auto;
+  border-radius: 10px;
+}
+
+
+section#design .produk-item {
+
+}
+
+section#design .produk-item .gambar {
+
+  border-radius: 20px;
+  overflow: hidden;
+  transition: .5s all ease-in-out;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+
+section#design .produk-item .gambar img:hover {
+  transform: scale(1.1);
+  
+}
+
+section#design .produk-item .gambar img {
+
+  width: 100%;
+  border-radius: 10px;
+  transition: .5s all ease-in-out;
+}
+
+
+section#design .produk-item .description {
+  position: relative;
+  background-color: white;
+  bottom: -24px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 16%);
+  padding: 6px 0 2px;
+  z-index: 99;
+}
+
+section#design .produk-item .description h2{
+
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* end design-section */
 
 /*  */
 
