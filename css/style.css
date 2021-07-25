@@ -61,7 +61,7 @@ nav .navbar-nav a:hover {
 /* hero-section */
 section#hero-section {
 
-  padding: 4rem 0 8rem;
+  margin: 4rem 0 8rem;
 }
 
 
@@ -189,6 +189,10 @@ section#about .title-text p {
   color: #6a6a6a;
 }
 
+section#about .title-text h2 {
+  font-weight: 700;
+}
+
 section#about .gambar {
   margin: 20px 0;
 }
@@ -238,6 +242,13 @@ section#fitur .title-text p {
   
 
    /* Hero-section */
+   section#hero-section {
+     margin: 4rem 0 5rem;
+   }
+
+   section#hero-section .title-banner {
+     margin-bottom: 30px;
+   }
 
    section#hero-section .title-banner,
    section#hero-section .button-banner,
@@ -268,6 +279,14 @@ section#fitur .title-text p {
      margin-bottom: 3rem;
    }
 
+
+   /* About-section */
+   section#about .title-text p {
+     padding: 0 5%;
+   }
+   section#about .gambar {
+     margin: 30px 0;
+   }
 
 }
 @media (max-width: 768px) {
